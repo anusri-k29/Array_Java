@@ -78,12 +78,12 @@ class ArrayFunctions{
 		System.out.println("index is: " + firstIndex);
 	// Convert Array to ArrayList
 	    	ArrayList<Integer> arrayToArrayList(int[] array) {
-	        ArrayList<Integer> arrayList = new ArrayList<Integer>();
-	        for (int num : array) {
+	          ArrayList<Integer> arrayList = new ArrayList<Integer>();
+	          for (int num : array) {
 	            arrayList.add(num);
-	        }
-	        return arrayList;
-	   	 }
+	             }
+	            return arrayList;
+	   	}
 	
 	    // Convert ArrayList to Array
 	    	int[] arrayListToArray(ArrayList<Integer> arrayList) {
@@ -94,6 +94,4 @@ class ArrayFunctions{
 	        return array;
 	    }
 	}
-	}
-
 }
