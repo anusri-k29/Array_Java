@@ -9,6 +9,8 @@ class UserInput{
 			for(int i = 0; i< array.length; i++){
 				array[i] = scan.nextInt();
 			}
+			scan.close();
 			return array;
+			
 		}	
 	}
