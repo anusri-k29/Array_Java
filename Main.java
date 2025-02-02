@@ -1,4 +1,7 @@
 //Main.java
+//Anusri Kadam
+//23070126016
+//SY AIML A1
 class Main{
 	public static void main(String args[]){
 		UserInput ui = new UserInput();
